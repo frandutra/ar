@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francisco Dutra - Portfolio</title>
+  <link rel="preload" href="css/normalize.css" as="style">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+  <link rel="preload" href="css/styles.css" as="style">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Header-->
+  <header class="header">
+
+    <div class="contenedor">
+      <div class="barra">
+        <div class="logo__contenedor">
+        <div class="logo__avatar">
+          <img src="img/AvatarMaker.svg">
+        </div>
+      </div>
+
+        <a class="logo" href="index.html">
+          <h1 class="logo__nombre no-margin">
+            Francisco Dutra
+          </h1>
+          <h1 class="logo__rol">Estudiante avanzado de Ingenieria en Sistemas</h1>
+        </a>
+
+
+
+
+        <nav class="active navegacion" id="nav">
+          <ul>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#estudios">Estudios</a></li>
+            <li><a href="#aptitudes-lenguajes">Aptitudes y lenguajes</a></li>
+            <li><a href="#exp-proy">Experiencia y Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <button class="icon" id="toggle">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="contenedor">
+    <div class="flex">
+
+      <div id="sobre-mi"  class="producto">
+          <div class="producto__imagen">
+            <img class="circled" src="img/perfil.jpeg" alt="imagen camisa">
+          </div>
+        <div class="producto__informacion">
+            <p class="producto__nombre">Sobre mi</p>
+            <p class="producto__texto">¡Hola! Soy Francisco Dutra, Estudiante de Ingeniería en Sistemas de
+              Información (4to año). Actualmente estoy viviendo en Concepcion del Uruguay, Entre Rios, tengo 21 años. Me interesa el area de base de datos aunque aun no tenga decidido un camino que tomar, asimismo me gusta adquirir conocimientos nuevos todo el tiempo. Siempre estoy dispuesto a nuevas alternativas y actividades.</p>
+            <p class="producto__texto">
+              Aqui dejo mi <a href="pdfs/CV.pdf">Curriculum Vitae</a>.
+            </p>
+        </div>
+      </div> <!--.producto-->
+
+      <div id="estudios" class="producto">
+        <div class="producto__informacion padding-left">
+          <p class="producto__nombre padding-left-minor">Estudios</p>
+          <ul class="producto__lista">
+            <li>
+              Bachiller en Ciencias Sociales y humanidades, Colegio Sagrado Corazon de Jesus (2019)
+            </li>
+            <li>
+              Grado en Ingeniería en Sistemas de Informacion, Universidad Tecnologica Nacional FRCU (2020-actualidad)
+            </li>
+            <li>
+              Desarrollo Web, Plataforma Udeamy (2023-actualidad)
+            </li>
+          </ul>
+        </div>
+
+        <img class="imagen__estudios" src="img/estudios.jpg" alt="imagen camisa">
+
+      </div> <!--.producto-->
+      <div id="aptitudes-lenguajes" class="producto">
+          <video autoplay muted loop>
+            <source src="img/video.mp4">
+          </video>
+        <a>
+          <div class="producto__informacion  margin-right">
+            <p class="producto__nombre padding-left-minor">Aptitudes y lenguajes</p>
+            <ul class="producto__lista">
+              <li>Desarrollo de Modelos de Aprendizaje Automatico(en proceso): Python</li>
+              <li>Base de Datos: MySQL, PostgreSQL</li>
+              <li>Desarrollo web(en proceso): HTML, CSS, JavaScript, SASS, PHP</li>
+              <li>Idiomas: Español (nativo), Inglés (avanzado)</li>
+            </ul>
+          </div>
+        </a>
+      </div> <!--.producto-->
+
+
+
+
+      <div id="exp-proy" class="producto">
+        <div class="experiencia__proyectos padding-left">
+          <p class="producto__nombre padding-left-minor">
+            Experiencia y Proyectos
+          </p>
+          
+          <ul>
+            <li>
+              Integrante del grupo de Investigacion en Base de Datos en UTN-FRCU (2023-Actualidad)
+            </li>
+            <li>
+              Proyecto: Analizador Sintáctico y Léxico programado en Pascal (2021) se encuentra disponible en perfil de
+              <a href="https://github.com/frandutra/Analizador-Sintactico-Lexico-2021">GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="producto">
+        <div class="redes__sociales">
+          <h2 class="producto__nombre">Redes Sociales</h2>
+          <div class="social__item">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="28"
+              height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#b3aca7" fill="none" stroke-linecap="round"
+              stroke-linejoin="round" style="vertical-align: middle;">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+              <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+              <path d="M16.5 7.5l0 .01" />
+            </svg>
+            <p>
+              Instagram:<a href="https://www.instagram.com/_frandutra_/"> @_frandutra_</a>
+            </p>
+          </div>
+          <div class="social__item">
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord" width="28"
+                height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#b3aca7" fill="none" stroke-linecap="round"
+                stroke-linejoin="round" style="vertical-align: middle;">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M8 12a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+                <path d="M14 12a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+                <path
+                  d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l.975 1.923a11.913 11.913 0 0 1 4.053 0l.972 -1.923c1.5 .16 3.043 .485 4.5 1.5c2 5.667 2.167 9.833 1.5 11.5c-.667 1.333 -2 3 -3.5 3c-.5 0 -2 -2 -2 -3" />
+                <path d="M7 16.5c3.5 1 6.5 1 10 0" />
+              </svg>
+              Discord:<a href="https://discordapp.com/users/687910007550902273"> frandutra</a>
+            </p>
+          </div>
+          <div class="social__item">
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="28"
+                height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#b3aca7" fill="none" stroke-linecap="round"
+                stroke-linejoin="round" style="vertical-align: middle;">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+              </svg>
+              GitHub:<a href="https://github.com/frandutra"> frandutra</a>
+            </p>
+          </div>
+          <div class="social__item">
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="28"
+                height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#b3aca7" fill="none" stroke-linecap="round"
+                stroke-linejoin="round" style="vertical-align: middle;">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                <path d="M8 11l0 5" />
+                <path d="M8 8l0 .01" />
+                <path d="M12 16l0 -5" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+              </svg>
+              Linkedin:<a href="https://www.linkedin.com/in/francisco-dutra-321322247/"> Francisco Dutra</a>
+            </p>
+          </div>
+        </div>
+
+        <form id="contacto" class="form" action="https://formspree.io/f/xzblzoaj"
+        method="POST">
+          <fieldset>
+            <legend>Contactá llenando todos los campos</legend>
+
+            <div class="contenedor-campos">
+              <div class="campo">
+                <input class="input-text" type="text" placeholder="NOMBRE" name="name">
+              </div>
+
+              <div class="campo">
+                <input class="input-text" type="email" placeholder="E-MAIL" name="email">
+              </div>
+
+              <div class="campo">
+                <textarea class="input-text" placeholder="MENSAJE" name="message"></textarea>
+              </div>
+            </div> <!-- .contenedor-campos -->
+
+            <div class="alinear-derecha flex">
+              <input type="submit" value="ENVIAR">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="barra">
+
+        <div class="logo__avatar">
+          <img src="img/AvatarMaker.svg">
+        </div>
+
+        <a class="logo" href="index.html">
+          <h1 class="logo__nombre no-margin">
+            Francisco Dutra
+          </h1>
+          <h1 class="logo__rol">Estudiante avanzado de Ingenieria en Sistemas</h1>
+        </a>
+
+        <div class="nav__footer">
+           <a href="#sobre-mi">Sobre mi</a>
+           <a href="#estudios">Estudios</a>
+           <a href="#aptitudes-lenguajes">Aptitudes y lenguajes</a>
+           <a href="#exp-proy">Experiencia y Proyectos</a>
+           <a href="#contacto">Contacto</a>
+        </div>
+
+      </div>
+    </div>
+    
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
